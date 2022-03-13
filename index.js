@@ -33,3 +33,6 @@ function foo() {
   return x + y + z;
 }
 
+function A() {
+  console.log('Hello from A');
+};
