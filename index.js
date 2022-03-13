@@ -10,7 +10,8 @@ const helloFunc = async () =>  {
 
 const handleRemove = () => {
   console.log('BranchA');
-  console.log('BranchA!!');
+  console.log('BranchC');
+  console.log('BranchC!!');
 };
 
 const handleUpdate = () => {
