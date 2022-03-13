@@ -17,6 +17,7 @@ const handleUpdate = () => {
 
 const handleAdd = () => {
   console.log('const handleAdd');
+  console.log(2);
 };
 
 function foo() {
@@ -24,6 +25,7 @@ function foo() {
   const x = 100;
   const y = 200;
   const z = 300;
+  console.log(3);
   return x + y + z;
 }
 
