@@ -10,12 +10,17 @@ const helloFunc = async () =>  {
 
 const handleRemove = () => {};
 
-const handleUpdate = () => {};
+const handleUpdate = () => {
+  console.log('const handleUpdate');
+  console.log(1);
+};
 
-const handleAdd = () => {};
+const handleAdd = () => {
+  console.log('const handleAdd');
+};
 
 function foo() {
-//  TODO: Need calculate every single request.
+//  TODO: Need calculate every single request!
   const x = 100;
   const y = 200;
   const z = 300;
