@@ -1,0 +1,24 @@
+'use strict';
+
+console.log('App started!');
+
+const helloFunc = async () =>  {
+  document.querySelector('img').src = (await axios.get('https://dog.ceo/api/breeds/image/random')).data.message;
+  const myBtn = document.querySelector("[id=my-btn]");
+  console.log(myBtn)
+}
+
+const handleRemove = () => {};
+
+const handleUpdate = () => {};
+
+const handleAdd = () => {};
+
+function foo() {
+//  TODO: Need calculate every single request.
+  const x = 100;
+  const y = 200;
+  const z = 300;
+  return x + y + z;
+}
+
