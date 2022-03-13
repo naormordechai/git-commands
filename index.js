@@ -8,7 +8,10 @@ const helloFunc = async () =>  {
   console.log(myBtn)
 }
 
-const handleRemove = () => {};
+const handleRemove = () => {
+  console.log('BranchA');
+  console.log('BranchA!!');
+};
 
 const handleUpdate = () => {
   console.log('const handleUpdate');
