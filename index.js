@@ -39,4 +39,5 @@ function A() {
 
 function componentA() {
   console.log(1);
+  console.log(2);
 }
