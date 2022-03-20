@@ -36,3 +36,5 @@ function foo() {
 function A() {
   console.log('Hello from A');
 };
+
+function componentA() {}
