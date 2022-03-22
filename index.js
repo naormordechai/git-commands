@@ -37,6 +37,12 @@ function A() {
   console.log('Hello from A');
 };
 
+function B() {
+  console.log('Hello from B');
+  console.log(2);
+  console.log(3);
+}
+
 function componentA() {
   console.log(1);
   console.log(2);
